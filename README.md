@@ -1,10 +1,10 @@
 # TCR2Rep Pipeline (for win64)
 
 ### Pipeline description :  
-The pipeline processes raw TCR sequences and exports a data table containing all IgBlast annotation, clonal assignment and clonal frequency data.
+The pipeline processes raw TCR sequences and exports a data table containing all IgBlast annotation, clonal assignment and clonal frequency data (for the 10 biggest clone).
 The pipeline also performs bioinformatic analyses, such as: clonal size distribution ,  CDR3 lengths distribution and VDJ segments frequencies.
 
-### Installation (manual): 
+## Installation (manual): 
 1. **Download** and Install the latest version of **Anaconda** from here: 
 
    https://www.anaconda.com/download
@@ -53,7 +53,7 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
 
    (you can find "TCR2Rep" path by typing: "pwd" in "Anaconda Prompt").
 
-10. Download **Imgt database**: (You can get a more extensive explanation here.)
+10. Download **Imgt database**: (You can get a more extensive explanation here - https://www.imgt.org/vquest/refseqh.html#VQUEST.)
      
      a.	At "igblast-1.21.0 " folder create new folder with the name – "database" by typing:
       
@@ -64,7 +64,7 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
      b.	Create 3 new txt file at "database" folder. (right button -> new -> text document)
         Save the files with this names: "Human_TRV","Human_TRD","Human_TRJ".
      
-     c.	Go here, and copy all Human v genes of TCR (i.e. -  TRAV, TRBV, TRGV, TRDV) into "Human_TRV" file (one after the other), all D genes of TCR into " Human_TRD" file and all J genes of TCR into "Human_TRJ" file. 
+     c.	Go here - https://www.imgt.org/vquest/refseqh.html#VQUEST, and copy all Human v genes of TCR (i.e. -  TRAV, TRBV, TRGV, TRDV) into "Human_TRV" file (one after the other), all D genes of TCR into " Human_TRD" file and all J genes of TCR into "Human_TRJ" file. 
     
     d.	Now, run this commands for each file to filter out duplicate sequences and prepare the files to igblast: (change just the gene segment V\D\J in the filename)
        
