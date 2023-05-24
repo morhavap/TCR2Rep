@@ -67,7 +67,7 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
         Save the files with this names: "Human_TRV","Human_TRD","Human_TRJ".
 
      
-     c.	Go here - https://www.imgt.org/vquest/refseqh.html#VQUEST, and copy all Human v genes of TCR (i.e. -  TRAV, TRBV, TRGV, TRDV) into "Human_TRV" file (one after the other), all D genes of TCR into " Human_TRD" file and all J genes of TCR into "Human_TRJ" file. 
+     c.	Go here - https://www.imgt.org/vquest/refseqh.html#VQUEST, and copy all Human v genes sequences of TCR (i.e. -  TRAV, TRBV, TRGV, TRDV) into "Human_TRV" file (one after the other), all D genes of TCR into " Human_TRD" file and all J genes of TCR into "Human_TRJ" file. 
     
     d.	Now, run this commands for each file to filter out duplicate sequences and prepare the files to igblast: (change just the gene segment V\D\J in the filename)
        
