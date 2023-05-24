@@ -77,6 +77,8 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
        
        ```<your_path_to_bin_dir>/edit_imgt_file.pl human_TRV_filtered > "human_TRV_igblast"```
        
+       [edit_imgt_file.pl file maybe will open after running the command - you can closed it)
+       
        ```<your_path_to_bin_dir>/makeblastdb -parse_seqids -dbtype nucl -in "human_TRV_igblast"```
 
         Note: "database" folder contains IMGT VDJ TCR database. It is important to update this folder once in a while according to the changes published here. 
