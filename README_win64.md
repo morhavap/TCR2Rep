@@ -49,13 +49,15 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
 
    This is usually saved under a folder "C:\Program Files\NCBI")
 
-   Move "igblast-1.21.0 " folder into "TCR2Rep" folder.
+   Move "NCBI" folder into "TCR2Rep" folder.
 
    (you can find "TCR2Rep" path by typing: "pwd" in "Anaconda Prompt").
 
 10. Download **Imgt database**: (You can get a more extensive explanation here - https://www.imgt.org/vquest/refseqh.html#VQUEST.)
      
      a.	At "igblast-1.21.0 " folder create new folder with the name – "database" by typing:
+     
+     ```cd NCBI\igblast-1.21.0```
       
       ```mkdir database```
       
