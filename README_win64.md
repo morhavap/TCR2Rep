@@ -73,6 +73,8 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
        
        ```seqkit rmdup -s < Human_TRV.txt > human_TRV_filtered```
        
+       at the next command you need the path for bin directory - bin directory exist always in NCBI\igblast-1.21.0 (that you copyied to "TCR2Rep" directory at the previouse stages.)
+       
        ```<your_path_to_bin_dir>/edit_imgt_file.pl human_TRV_filtered > "human_TRV_igblast"```
        
        ```<your_path_to_bin_dir>/makeblastdb -parse_seqids -dbtype nucl -in "human_TRV_igblast"```
