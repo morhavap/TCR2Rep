@@ -65,6 +65,7 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
    
      b.	Create 3 new txt file at "database" folder. (right button -> new -> text document)
         Save the files with this names: "Human_TRV","Human_TRD","Human_TRJ".
+
      
      c.	Go here - https://www.imgt.org/vquest/refseqh.html#VQUEST, and copy all Human v genes of TCR (i.e. -  TRAV, TRBV, TRGV, TRDV) into "Human_TRV" file (one after the other), all D genes of TCR into " Human_TRD" file and all J genes of TCR into "Human_TRJ" file. 
     
