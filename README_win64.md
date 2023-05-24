@@ -71,7 +71,7 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
     
     d.	Now, run this commands for each file to filter out duplicate sequences and prepare the files to igblast: (change just the gene segment V\D\J in the filename)
        
-       ```seqkit rmdup -s < Human_TRV > human_TRV_filtered```
+       ```seqkit rmdup -s < Human_TRV.txt > human_TRV_filtered```
        
        ```<your_path_to_bin_dir>/edit_imgt_file.pl human_TRV_filtered > "human_TRV_igblast"```
        
