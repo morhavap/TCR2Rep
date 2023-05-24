@@ -61,7 +61,7 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
       
       ```mkdir database```
       
-      ```cd databas```
+      ```cd database```
    
      b.	Create 3 new txt file at "database" folder. (right button -> new -> text document)
         Save the files with this names: "Human_TRV","Human_TRD","Human_TRJ".
